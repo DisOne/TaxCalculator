@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4A2334C61EE007D500BFA566 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2334C51EE007D500BFA566 /* AppDelegate.swift */; };
-		4A2334C81EE007D500BFA566 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2334C71EE007D500BFA566 /* ViewController.swift */; };
+		4A2334C81EE007D500BFA566 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2334C71EE007D500BFA566 /* RootViewController.swift */; };
 		4A2334CD1EE007D500BFA566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A2334CC1EE007D500BFA566 /* Assets.xcassets */; };
 		4A2334DB1EE007D600BFA566 /* Tax_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2334DA1EE007D600BFA566 /* Tax_CalculatorTests.swift */; };
 		4A2334EB1EE00DBC00BFA566 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A2334EA1EE00DBC00BFA566 /* Main.storyboard */; };
@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		4A2334C21EE007D500BFA566 /* Tax Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tax Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A2334C51EE007D500BFA566 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4A2334C71EE007D500BFA566 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A2334C71EE007D500BFA566 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		4A2334CC1EE007D500BFA566 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A2334D11EE007D500BFA566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A2334D61EE007D600BFA566 /* Tax CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tax CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,7 +136,7 @@
 		4A2334E91EE00B4C00BFA566 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				4A2334C71EE007D500BFA566 /* ViewController.swift */,
+				4A2334C71EE007D500BFA566 /* RootViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -272,7 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A2334FD1EE0121A00BFA566 /* DataModel.xcdatamodeld in Sources */,
-				4A2334C81EE007D500BFA566 /* ViewController.swift in Sources */,
+				4A2334C81EE007D500BFA566 /* RootViewController.swift in Sources */,
 				4A2334C61EE007D500BFA566 /* AppDelegate.swift in Sources */,
 				4A2334FF1EE012BE00BFA566 /* DataModelController.swift in Sources */,
 			);

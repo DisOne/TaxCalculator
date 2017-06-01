@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="05O-Ed-GOu">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Gko-QQ-dox">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,23 +9,42 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="k59-Ff-dLJ">
+        <!--Root View Controller-->
+        <scene sceneID="0Gh-r2-uIt">
             <objects>
-                <viewController id="05O-Ed-GOu" customClass="ViewController" customModule="Tax_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="5qf-hm-vzS" customClass="RootViewController" customModule="Tax_Calculator" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="eJo-q1-xMO"/>
-                        <viewControllerLayoutGuide type="bottom" id="eam-Fz-F1u"/>
+                        <viewControllerLayoutGuide type="top" id="qEg-CU-Lge"/>
+                        <viewControllerLayoutGuide type="bottom" id="o9o-J8-Qrr"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="ezu-h4-Enc">
+                    <view key="view" contentMode="scaleToFill" id="zPh-M8-MDC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="SdH-oR-uph"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hvg-FM-jTz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DBd-aw-dIi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="73" y="81"/>
+            <point key="canvasLocation" x="792.79999999999995" y="-32.833583208395808"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="BcA-E0-3gh">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Gko-QQ-dox" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="mwd-fv-s46">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="5qf-hm-vzS" kind="relationship" relationship="rootViewController" id="Xsc-at-q3M"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eyk-Jo-ePG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-146.40000000000001" y="-32.833583208395808"/>
         </scene>
     </scenes>
 </document>
