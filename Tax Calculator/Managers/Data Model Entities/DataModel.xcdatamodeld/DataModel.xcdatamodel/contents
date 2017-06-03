@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16F73" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="Settings" representedClassName="Settings" syncable="YES" codeGenerationType="class">
+    <entity name="Settings" representedClassName="Settings" syncable="YES" codeGenerationType="category">
         <attribute name="civilAgreement" optional="YES" attributeType="Boolean" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="disabledPerson" optional="YES" attributeType="Boolean" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
-        <attribute name="incomeTaxLimit" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
-        <attribute name="livingWage" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
-        <attribute name="personalIncomeTax" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
-        <attribute name="socialPaymentLimit" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
-        <attribute name="warTax" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="incomeTaxLimit" optional="YES" attributeType="Decimal" defaultValueString="0" syncable="YES"/>
+        <attribute name="livingWage" optional="YES" attributeType="Decimal" defaultValueString="1600" syncable="YES"/>
+        <attribute name="personalIncomeTax" optional="YES" attributeType="Decimal" defaultValueString="18" syncable="YES"/>
+        <attribute name="socialPaymentLimit" optional="YES" attributeType="Decimal" defaultValueString="40000" syncable="YES"/>
+        <attribute name="warTax" optional="YES" attributeType="Decimal" defaultValueString="1.5" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Settings" positionX="-63" positionY="-18" width="128" height="148"/>
+        <element name="Settings" positionX="-63" positionY="-18" width="128" height="150"/>
     </elements>
 </model>

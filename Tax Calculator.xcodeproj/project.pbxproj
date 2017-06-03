@@ -15,6 +15,7 @@
 		4A2334ED1EE00DD100BFA566 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A2334EC1EE00DD100BFA566 /* LaunchScreen.storyboard */; };
 		4A2334FD1EE0121A00BFA566 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A2334FB1EE0121A00BFA566 /* DataModel.xcdatamodeld */; };
 		4A2334FF1EE012BE00BFA566 /* DataModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2334FE1EE012BE00BFA566 /* DataModelController.swift */; };
+		4AFAC8B11EE1A52500174F81 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFAC8B01EE1A52500174F81 /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		4A2334EC1EE00DD100BFA566 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A2334FC1EE0121A00BFA566 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		4A2334FE1EE012BE00BFA566 /* DataModelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataModelController.swift; path = "Managers/Data Model Controller/DataModelController.swift"; sourceTree = "<group>"; };
+		4AFAC8B01EE1A52500174F81 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Settings.swift; path = "Managers/Data Model Entities/Settings.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				4A2334FB1EE0121A00BFA566 /* DataModel.xcdatamodeld */,
+				4AFAC8B01EE1A52500174F81 /* Settings.swift */,
 			);
 			name = "Data Model Entities";
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				4A2334C81EE007D500BFA566 /* RootViewController.swift in Sources */,
 				4A2334C61EE007D500BFA566 /* AppDelegate.swift in Sources */,
 				4A2334FF1EE012BE00BFA566 /* DataModelController.swift in Sources */,
+				4AFAC8B11EE1A52500174F81 /* Settings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
